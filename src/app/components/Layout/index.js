@@ -1,12 +1,17 @@
-import React,{Fragment} from "react";
-import SideBar from './Sidebar';
+import { Fragment } from "react";
 import SearchBar from './SearchBar';
+import SideBar from './Sidebar';
 const App = () => {
     return (
         <div>
             <Fragment>
+                <div>
                 <SearchBar/>
-                <SideBar/>
+                </div>
+               <div className="h-screen justify-start">
+                     <SideBar/>
+               </div>
+                
             </Fragment>
         </div>
     )
