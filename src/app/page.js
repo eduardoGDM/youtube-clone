@@ -1,6 +1,7 @@
 import DashBoard from './components/Dashboard'
 import SearchBar from './components/SearchBar'
 import Sidebar from './components/Sidebar'
+import TopMenu from './components/TopMenu'
 
 
 export default function Home() {
@@ -9,7 +10,11 @@ export default function Home() {
          <SearchBar/>
              <div className="flex">
              <Sidebar/>
-            <DashBoard/>
+             <div className="">
+             <TopMenu/>
+             <DashBoard/>
+             </div>
+           
     </div>
     </div>
   )

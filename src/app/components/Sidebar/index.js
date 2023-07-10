@@ -71,6 +71,7 @@ const [isOpen,setIsOpen] = useState(false);
                         <hr className="h-px bg-zinc-600 border-0"></hr>
                     </div>
                     <div className="">
+                         <hr className="h-px  bg-zinc-600 border-0"></hr>
                         <h1 className="text[#AAAAAA] font-bold p-2">More from Youtube</h1>
                     </div>
                     <div className="flex hover:bg-zinc-500 rounded cursor-pointer">
@@ -113,9 +114,7 @@ const [isOpen,setIsOpen] = useState(false);
                     </div>
                     <div>
                     <hr className="h-px  bg-zinc-600 border-0"></hr>
-                 </div>
-                    
-                    
+                 </div>          
                 </div>
 
 

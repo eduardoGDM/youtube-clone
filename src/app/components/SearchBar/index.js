@@ -3,9 +3,9 @@ import { Fragment } from 'react';
 const SearchBar = () => {
     return (
         <Fragment>
-            <div className="bg-[#212121] flex justify-between py-2">
+            <div className="bg-[#212121] flex justify-between w-screen ">
                 <div className="flex">
-            <img src="hamburger.svg" alt="menu" className=" px-4 cursor-pointer"/>
+            <img src="hamburger.svg" alt="menu" className="  cursor-pointer"/>
             <img src="youtube.svg" alt="menu" className="cursor-pointer"/>
             </div>
             <div className="flex ">
@@ -15,10 +15,11 @@ const SearchBar = () => {
             <img src="mic.svg" alt="menu" className="w-10 h-10 object-scale-down cursor-pointer rounded-full bg-black"/>
             </div>
         </div>
-        <div>
-            <h1>oi</h1>
+        <div className="p-2">
+            Canal
         </div>
-            </div>
+        </div>
+    
             
         </Fragment>
     )
